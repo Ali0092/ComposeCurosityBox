@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lesson_Responsiveness</string>
+    <string name="short_description">This is short description</string>
+    <string name="long_description"><![CDATA[Feel free to play around with specific spacing values until it looks as on the mockups. It doesn\'t have to be pixel-perfect, but make sure that the size & position relations match.\n]]></string>
 </resources>
