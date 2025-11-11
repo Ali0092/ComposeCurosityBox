@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lesson_ResponsivenessTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    LessonResponsivenessScreen(
+                    CheckableRowPractice(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -75,6 +75,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     Lesson_ResponsivenessTheme {
-        LessonResponsivenessScreen()
+        CheckableRowPractice()
     }
 }
